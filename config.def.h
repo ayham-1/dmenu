@@ -8,10 +8,10 @@ static int min_width = 500;                    /* minimum width when centered */
 static const unsigned int border_width = 5; /* Size of the window border */
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static char font[] = "monospace:size=10";
+static char font[] = "monospace:size=12";
 static const char *fonts[] = {
 	font,
-	"monospace:size=10",
+	"monospace:size=12",
 };
 
 static char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
